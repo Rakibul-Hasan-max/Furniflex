@@ -4,15 +4,15 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper/modules";
 
-import prod1 from "../..//../src/assets//products/p1.jpg";
-import prod2 from "../..//../src/assets//products/p2.jpg";
-import prod3 from "../..//../src/assets//products/p3.jpg";
-import prod4 from "../..//../src/assets//products/p4.jpg";
-import prod5 from "../..//../src/assets//products/p5.jpg";
-import prod6 from "../..//../src/assets//products/p6.jpg";
-import prod7 from "../..//../src/assets//products/p7.jpg";
-import prod8 from "../..//../src/assets//products/p8.jpg";
-import prod9 from "../..//../src/assets//products/p9.jpg";
+import prod1 from "../../../src/assets/products/p1.jpg";
+import prod2 from "../../../src/assets/products/p2.jpg";
+import prod3 from "../../../src/assets/products/p3.jpg";
+import prod4 from "../../../src/assets/products/p4.jpg";
+import prod5 from "../../../src/assets/products/p5.jpg";
+import prod6 from "../../../src/assets/products/p6.jpg";
+import prod7 from "../../../src/assets/products/p7.jpg";
+import prod8 from "../../../src/assets/products/p8.jpg";
+import prod9 from "../../../src/assets/products/p9.jpg";
 
 const ProductList = () => {
   return (
