@@ -1,23 +1,24 @@
 import React from "react";
 import logo from "../../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const navOptions = (
     <>
       <li>
-        <a href="/home">Home</a>
+        <Link to="/home">Home</Link>
       </li>
       <li>
-        <a href="/products">Products</a>
+        <Link to="/products">Products</Link>
       </li>
       <li>
-        <a>Categories</a>
+        <Link to="/">Categories</Link>
       </li>
       <li>
-        <a>Custom</a>
+        <Link to="/">Custom</Link>
       </li>
       <li>
-        <a>Blog</a>
+        <Link to="/">Blog</Link>
       </li>
     </>
   );
