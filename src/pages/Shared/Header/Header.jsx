@@ -5,10 +5,10 @@ const Header = () => {
   const navOptions = (
     <>
       <li>
-        <a>Home</a>
+        <a href="/home">Home</a>
       </li>
       <li>
-        <a>Products</a>
+        <a href="/products">Products</a>
       </li>
       <li>
         <a>Categories</a>
@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="navbar bg-base-100 px-20">
+      <div className="navbar fixed z-10 bg-opacity-30 text-white bg-base-100 px-20">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
